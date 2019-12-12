@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/bombbomb/BBCore.svg?branch=master)](https://travis-ci.org/bombbomb/BBCore) [![Code Climate](https://codeclimate.com/github/bombbomb/BBCore/badges/gpa.svg)](https://codeclimate.com/github/bombbomb/BBCore) [![Test Coverage](https://codeclimate.com/github/bombbomb/BBCore/badges/coverage.svg)](https://codeclimate.com/github/bombbomb/BBCore)
 
-BombBomb makes it easy to build relationships with simple videos. Use this JavaScript API to record a video on your website, email it within a clean, beautiful design, and receive detailed analytics on opens, click and plays. With the free BombBomb app you can receive push notifications and respond right away when someone interacts with your email.
+BombBomb makes it easy to build relationships with simple videos. Use this JavaScript API to record a video on your website, send it within seconds through email, and receive detailed analytics on email opens, link clicks, and video plays. With the BombBomb application, you can receive push notifications and respond right away when someone interacts with your email, keeping you informed and top of mind.
 
 ## Quick Start
 
@@ -24,7 +24,7 @@ var bb = new BBCore({ accessToken: '<your access token or api key>', onerror: On
 Take a look in the `examples/` directory to see some example implementation.
 
 ### Record a Video On Your Website
-<img src="http://bbemail.s3.amazonaws.com/ART/githubImages/record_animation_250.gif" alt="" align="left" /> Embed a video recorder on your website and record to a BombBomb account without leaving your site.
+<img src="http://bbemail.s3.amazonaws.com/ART/githubImages/record_animation_250.gif" alt="" align="left" /> You can embed a video recorder on your website and record a BombBomb video without ever leaving your site.
 
 Create a video recorder and save a recording by calling `startVideoRecorder()`, specifying a css selector `target` into which you would like the recorder to appear.
 
@@ -45,9 +45,9 @@ bb.startVideoRecorder({ target: '#recorderDiv'}, function (vidInfo) {
 
 
 ### Send a Video in an Email Through BombBomb <img src="http://bbemail.s3.amazonaws.com/ART/githubImages/send.jpg" alt="" align="right" />
- Wrap your video in a nicely designed template, add a personal written message if you like, and press send.
+Add your video to an email design template, add a personal written message to your recipient, and press send.
 
-To send a video in your default template, use `videoQuickSend()`.
+To send a video in your default email design template, use `videoQuickSend()`.
 
 &nbsp;
 
@@ -67,7 +67,7 @@ bb.videoQuickSend({
 
 
 ### Register to receive real-time feedback via web hooks 
-Have your system be notified in real-time as events happen in your customer's BombBomb account.
+Have your system receive notitications in real-time as events happen in your customer's BombBomb account.
 [BombBomb's Webhooks](https://support.bombbomb.com/hc/en-us/articles/115000439932-How-do-I-set-up-BombBomb-webhooks) make
 it easy to keep your system up to date.
 
@@ -82,7 +82,7 @@ bb.sendRequest('AddWebHook', {
 &nbsp;
 
 ### Detailed Analytics
-<img src="http://bbemail.s3.amazonaws.com/ART/githubImages/tracking_static.png" alt="" align="left" /> View your email opens, link clicks and video plays. When you can see how people are interacting with your emails and videos you'll know exactly when to follow up.
+<img src="http://bbemail.s3.amazonaws.com/ART/githubImages/tracking_static.png" alt="" align="left" /> View your email opens, link clicks, and video plays. When you can see how people are interacting with your emails and videos, you'll know exactly when to follow up.
 
 &nbsp;
 
@@ -90,8 +90,8 @@ bb.sendRequest('AddWebHook', {
 
 &nbsp;
 
-### Realtime Notifications <img src="http://bbemail.s3.amazonaws.com/ART/githubImages/notification.jpg" alt="" align="right" />
-Download the free BombBomb app for your <a href="https://itunes.apple.com/us/app/bombbomb/id449319652" target="_blank">iOS</a> or <a href="https://play.google.com/store/apps/details?id=com.bombbomb.prod.android" target="_blank">Android</a> device and enable realtime notifications. View contact details or respond from your mobile device with one click.
+### Real-time Notifications <img src="http://bbemail.s3.amazonaws.com/ART/githubImages/notification.jpg" alt="" align="right" />
+Download the free BombBomb app for your <a href="https://itunes.apple.com/us/app/bombbomb/id449319652" target="_blank">iOS</a> or <a href="https://play.google.com/store/apps/details?id=com.bombbomb.prod.android" target="_blank">Android</a> device and enable real-time notifications. View contact details or respond from your mobile device with one click.
 
 &nbsp;
 
